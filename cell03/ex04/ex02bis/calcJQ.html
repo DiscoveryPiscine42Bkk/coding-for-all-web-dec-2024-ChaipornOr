@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="calcJQ.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+</head>
+<body>
+    <h1>Basic Calculator</h1>
+    <!-- Left operand input -->
+    <input type="number" id="leftOperand" placeholder="Left operand" min="0" required>
+    
+    <!-- Operator select dropdown -->
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+    
+    <!-- Right operand input -->
+    <input type="number" id="rightOperand" placeholder="Right operand" min="0" required>
+    
+    <!-- Submit button -->
+    <input type="submit" id="calculateBtn" value="Try me!">
+    
+    <script src="calcJQ.js"></script>
+</body>
+</html>

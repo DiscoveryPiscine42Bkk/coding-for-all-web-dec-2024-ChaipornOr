@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <style>
+        /* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bcefff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    text-align: center;
+    width: 300px;
+}
+
+#newTaskBtn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#newTaskBtn:hover {
+    background-color: #68c0fa;
+}
+
+#ft_list {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#ft_list div {
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#ft_list div:hover {
+    background-color: #bdc3c7;
+}
+
+        
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+</head>
+<body>
+    <div id="container">
+        <button id="newTaskBtn">New</button>
+        <div id="ft_list">
+            <!-- To Do list will appear here -->
+        </div>
+    </div>
+
+    <script src="todoJQ.js"></script>
+</body>
+</html>

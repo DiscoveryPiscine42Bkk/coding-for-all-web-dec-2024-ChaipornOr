@@ -1,0 +1,13 @@
+/* Basic styles for the balloon */
+.balloon {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%; /* Make the balloon round */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for size and color */
+}
