@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+.profile-card {
+    background: #fff;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: hidden;
+}
+
+.profile-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.profile-info {
+    padding: 15px;
+}
+
+.profile-info h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.profile-info p {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.profile-info .location {
+    margin: 5px 0 15px;
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Adds space between icons */
+    margin: 20px 0;
+}
+
+.social-icons a {
+    width: 40px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
+    object-fit: contain; /* Ensures images keep proportions */
+    border-radius: 50%; /* Optional: makes the icons circular */
+    background-color: #f8f8f8; /* Optional: adds a background for better appearance */
+    padding: 5px; /* Adds spacing inside the icon */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds shadow */
+}
+
+.social-icons a:hover {
+    color: #0073e6;
+}
+
+.contact-btn {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.contact-btn:hover {
+    background-color: #333;
+}
