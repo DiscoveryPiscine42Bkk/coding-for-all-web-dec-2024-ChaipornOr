@@ -1,0 +1,54 @@
+body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+    }
+
+/* Parallax effect */
+.parallax {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6d/Red_Panda_%2825193861686%29.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Center message */
+.parallax .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Black block section */
+.black-block {
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Second image section */
+.second-image {
+    background-image: url('https://www.publicdomainpictures.net/pictures/300000/velka/red-panda-ailurus-fulgens-1561925738Ym9.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-image .content {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
